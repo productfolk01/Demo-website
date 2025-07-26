@@ -1,0 +1,354 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+body{
+    font-size: 20px;
+    color: #000;
+    background-color: #fbfaf8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    display: block;
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    border-radius: 23px;
+    border: .5px solid #c4c4c4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .04);
+}
+
+
+.main-heading {
+    font-weight: 800;
+    font-size: 32px;
+    color: #1a1c1f;
+    text-align: center;
+    margin: 26px auto;
+    width: 100%;
+}
+
+
+.apple-button {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap:12px;
+  position: relative;
+  margin:0px auto 0px auto;
+  height:fit-content;
+  width: fit-content;
+}
+
+.apple-button img {
+  margin: 0px;
+}
+
+
+/*..................................................frame 1...........................*/
+
+.white-frame{
+  background-color:#fff;
+  border: 0.5px solid #ccc;
+  width: 650px;
+  height: 440px;
+  border-radius: 40px; 
+  padding-left: 144px;
+  padding-right: 144px;
+  margin-left: 160px; 
+  display: flex;             
+  align-items: flex-start;   
+  gap: 50px;
+  position:relative; 
+  margin-top: 60px;
+}
+
+.screenshot{
+    width: 318px;
+    height: 340px;
+    align-self: last baseline;
+    margin-left:0px;
+}
+.screenshot-para {
+  font-size: 22px;
+  color: #808084;
+  line-height: 1.6;
+  position:relative;
+  margin: auto 0px auto 0px;
+}
+
+.b1{
+    color:#000
+}
+
+/*..................................................frame 2...........................*/
+.frame2{
+     background-color:#fff;
+  border: 0.5px solid #ccc;
+  width: 650px;
+  height: 440px;
+  border-radius: 40px; 
+  padding-left: 144px;
+  padding-right: 144px;
+  margin-left: 160px; 
+  display: flex;             
+  align-items: flex-start;   
+  gap: 50px;
+  position:relative; 
+ 
+}
+
+.s2{
+    width: 318px;
+    height: 340px;
+    align-self: last baseline;
+    margin-left:0px;
+}
+
+.para2{
+     font-size: 22px;
+  color: #808084;
+  line-height: 1.6;
+  position:relative;
+  margin: auto 0px auto 0px;
+
+}
+
+.b2{
+    color:#000
+}
+
+
+/*..................................................frame 3...........................*/
+
+.frame3{
+     background-color:#fff;
+  border: 0.5px solid #ccc;
+  width: 976px;
+  min-width: 976px;
+  max-width: 976px;
+  height: 440px;
+  border-radius: 40px; 
+
+  display: flex;             
+  align-items: flex-start;   
+  gap: 50px;
+  position:relative; 
+  margin:0px auto 0px auto;
+ 
+}
+
+.s3{
+    width: 318px;
+    height: 388px;
+    align-self: last baseline;
+    position: relative;
+    margin:0px 0px 0px 80px;
+}
+
+.para3{
+     font-size: 22px;
+  color: #808084;
+  line-height: 1.6;
+  position:relative;
+  margin: 121px 0px 0px 20px;
+  width:438px;
+  max-width: 438px;
+  background-color: aqua;
+}
+
+.b3{
+    color:#000
+}
+
+
+/*..................................................frame 4...........................*/
+
+.frame4{
+     background-color:#fff;
+  border: 0.5px solid #ccc;
+  width: 650px;
+  height: 440px;
+  border-radius: 40px; 
+  padding-left: 144px;
+  padding-right: 144px;
+  margin-left: 160px; 
+  display: flex;             
+  align-items: flex-start;   
+  gap: 50px;
+  position:relative; 
+ 
+}
+
+.s4{
+    width: 318px;
+    height: 340px;
+    align-self: last baseline;
+    margin-left:0px;
+}
+
+.para4{
+     font-size: 22px;
+  color: #808084;
+  line-height: 1.6;
+  position:relative;
+  margin: auto 0px auto 0px;
+}
+
+.b4{
+    color:#000
+}
+
+
+/*..................................................frame 5...........................*/
+
+
+.frame5{
+     background-color:#fff;
+  border: 0.5px solid #ccc;
+  width: 650px;
+  height: 440px;
+  border-radius: 40px; 
+  padding-left: 144px;
+  padding-right: 144px;
+  margin-left: 160px; 
+  display: flex;             
+  align-items: flex-start;   
+  gap: 50px;
+  position:relative; 
+ 
+}
+
+.s5{
+    width: 318px;
+    height: 340px;
+    align-self: last baseline;
+    margin-left:0px;
+}
+
+.para5{
+     font-size: 22px;
+  color: #808084;
+  line-height: 1.6;
+  position:relative;
+  margin: auto 0px auto 0px;
+
+}
+
+
+.b5{
+    color:#000
+}
+
+
+/*..................................................frame 6...........................*/
+
+.frame6 {
+  background-color: #fff;
+   border: 0.5px solid #ccc;
+  width: 650px;
+  height: 440px;
+  border-radius: 40px; 
+  padding-left: 144px;
+  padding-right: 144px;
+  margin-left: 160px; 
+  font-family: sans-serif;
+}
+
+.frame6 p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Two small images side by side */
+.store-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.store-buttons img {
+  width: 150px;       /* set both to same small size */
+  height: auto;
+  object-fit: contain;
+}
+
+/* Big image below, with spacing from sides */
+.mac-image-wrapper {
+  padding: 0 40px;  /* adds left and right padding */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;  /* align image to baseline visually */
+}
+
+.mac-big {
+  width: 100%;
+  max-width: 800px; /* control max size */
+  height: auto;
+  object-fit: contain;
+}
+
+.para6{
+    padding-top:30px;
+    font-size: 22px;
+    line-height: 142%;
+    color: #808084;
+    font-weight: 400;
+}
+.b6{
+    color:#000
+}
+/*................................over.........................................................*/
+
+.main{
+     max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: sans-serif;
+  color:black;
+  line-height: 1.6;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+.links{
+  font-size: 17px;
+  margin: 0px;  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:black;
+}
+
+.footer{
+    max-width: 743px;
+    position:relative;
+    margin:0px auto 0px auto;
+}
+
+.footer-content{
+  height: fit-content;
+  width:743px;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:center;
+  gap: 20px;
+
+}
+.footer-link{
+    font-size: 17px;
+    font-weight: 400px;
+}
