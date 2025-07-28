@@ -58,7 +58,7 @@ body{
 /*..................................................frame 1...........................*/
 
 .white-frame{
-  background-color:#fff;
+  background-color:#17cf2c;
   border: 0.5px solid #ccc;
   width: 650px;
   height: 440px;
@@ -93,18 +93,20 @@ body{
 
 /*..................................................frame 2...........................*/
 .frame2{
-     background-color:#fff;
+   background-color:#fff;
   border: 0.5px solid #ccc;
-  width: 650px;
+  width: 976px;
+  min-width: 976px;
+  max-width: 976px;
   height: 440px;
   border-radius: 40px; 
-  padding-left: 144px;
-  padding-right: 144px;
-  margin-left: 160px; 
+
   display: flex;             
   align-items: flex-start;   
   gap: 50px;
   position:relative; 
+  margin:0px auto 0px auto;
+ 
  
 }
 
@@ -132,7 +134,7 @@ body{
 /*..................................................frame 3...........................*/
 
 .frame3{
-     background-color:#fff;
+     background-color:#c93131;
   border: 0.5px solid #ccc;
   width: 976px;
   min-width: 976px;
